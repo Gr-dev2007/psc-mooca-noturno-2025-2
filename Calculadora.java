@@ -1,10 +1,19 @@
+
+import javax.swing.JOptionPane;
+
+
 public class Calculadora {
+String modelo;
 
     // public int soma(int a, int b){
     //     int resultado =  a +b;
     //     return resultado;
         
     // }
+
+    public Calculadora(){
+    JOptionPane.showMessageDialog(null, "Calculadora Simples");
+    }
 
     public double soma(double a , double b){
                double resultado = a + b;
